@@ -1,0 +1,1 @@
+dotnet run --project ./battleships.main/battleships.main.csproj

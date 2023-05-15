@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\battleships.state\battleships.state.csproj" />
+    <ProjectReference Include="..\battleships.shared\battleships.shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.4.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
